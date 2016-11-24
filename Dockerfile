@@ -20,4 +20,4 @@ WORKDIR /app/
 
 EXPOSE 80 443
 
-ENTRYPOINT ["/app/run.sh"]
+CMD ["/app/run.sh"]

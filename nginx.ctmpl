@@ -48,7 +48,7 @@ server {
 upstream {{ $server.Name }} {
         {{ range $serviceItem := service $service.Name }}
 
-        server {{ $serviceItem.Address }}:{{ $serviceItem.Port }}
+        server {{ $serviceItem.Address }}:{{ $serviceItem.Port }};
 
         {{ end }}
 }
