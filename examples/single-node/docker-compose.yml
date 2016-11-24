@@ -1,0 +1,14 @@
+version: "2"
+services:
+    app:
+        image: nginx
+        ports:
+            - 80
+        environment:
+            - 'SERVICE_80_NAME=web/app'
+            - 'SERVICE_80_TAGS="Name":"app.local"'
+        networks:
+            - public
+networks:
+    public:
+        external: true
