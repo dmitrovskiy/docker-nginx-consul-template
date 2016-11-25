@@ -1,8 +1,8 @@
 # Docker consul-template&nginx reverse proxy
 
-Inspired by [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy)
-This solution is intended to be used with [Swarm Cluster](https://docs.docker.com/swarm/install-manual/)
-[Consul-Template](https://github.com/hashicorp/consul-template) is used for listening [Consul](https://github.com/hashicorp/consul) events and generating nginx config
+Inspired by [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy)   
+This solution is intended to be used with [Swarm Cluster](https://docs.docker.com/swarm/install-manual/)   
+[Consul-Template](https://github.com/hashicorp/consul-template) is used for listening [Consul](https://github.com/hashicorp/consul) events and generating nginx config   
 
 ## Usage
 
